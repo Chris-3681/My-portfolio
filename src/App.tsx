@@ -33,10 +33,11 @@ export default function App() {
             Contact Me
           </a>
 
+          {/* WhatsApp */}
           <a
             href="https://wa.me/254715197697"
             target="_blank"
-            className="bg-green-500 p-3 rounded-full hover:scale-110 transition"
+            className="bg-green-500 p-3 rounded-full hover:scale-110 hover:bg-green-400 transition"
           >
             <FaWhatsapp size={22} />
           </a>
@@ -88,6 +89,11 @@ export default function App() {
 
           </div>
 
+          {/* Key highlight */}
+          <p className="text-green-400 text-sm mb-4">
+            Includes a full admin dashboard for managing products, orders, and users.
+          </p>
+
           <p className="text-gray-400 mb-5">
             Built a complete online store for a baby shop, allowing customers to browse products, place orders, and enabling the business to manage sales digitally.
           </p>
@@ -106,9 +112,9 @@ export default function App() {
           <a
             href="https://totos-bliss-babyshop.vercel.app/"
             target="_blank"
-            className="inline-block text-blue-400 font-medium hover:underline"
+            className="inline-block mt-2 text-blue-400 font-semibold hover:underline"
           >
-            View Live →
+            View Live Project →
           </a>
 
         </div>
@@ -145,7 +151,7 @@ export default function App() {
               target="_blank"
               className="text-blue-400 hover:underline"
             >
-              Live →
+              View Live →
             </a>
           </div>
 
@@ -168,7 +174,7 @@ export default function App() {
               target="_blank"
               className="text-blue-400 hover:underline"
             >
-              Live →
+              View Live →
             </a>
           </div>
 
@@ -191,7 +197,7 @@ export default function App() {
         <h2 className="text-3xl font-bold mb-6">Contact</h2>
 
         <p className="text-gray-400 mb-6">
-          Need a website or system for your business? Let’s talk.
+          Looking to take your business online or improve how it runs? Let’s talk.
         </p>
 
         <div className="flex flex-col items-center gap-4 text-lg">
@@ -209,7 +215,7 @@ export default function App() {
           <a
             href="https://wa.me/254715197697"
             target="_blank"
-            className="mt-4 bg-green-500 p-4 rounded-full hover:scale-110 transition"
+            className="mt-4 bg-green-500 p-4 rounded-full hover:scale-110 hover:bg-green-400 transition"
           >
             <FaWhatsapp size={28} />
           </a>

@@ -19,7 +19,6 @@ export default function App() {
         </p>
 
         <div className="flex items-center gap-4">
-
           <a
             href="#projects"
             className="bg-white text-black px-6 py-3 rounded-lg font-medium hover:opacity-80 transition"
@@ -34,7 +33,6 @@ export default function App() {
             Contact Me
           </a>
 
-          {/* WhatsApp */}
           <a
             href="https://wa.me/254715197697"
             target="_blank"
@@ -42,7 +40,6 @@ export default function App() {
           >
             <FaWhatsapp size={22} />
           </a>
-
         </div>
       </section>
 
@@ -52,16 +49,44 @@ export default function App() {
 
         <div className="bg-gray-900 p-8 rounded-xl shadow-lg">
 
-          <h3 className="text-2xl font-semibold mb-3">
+          <h3 className="text-2xl font-semibold mb-4">
             TotosBliss E-commerce Platform
           </h3>
 
-          {/* Screenshot */}
-          <img
-            src="/totosbliss.png"
-            alt="TotosBliss screenshot"
-            className="rounded-lg mb-6"
-          />
+          {/* Screenshots */}
+          <div className="grid md:grid-cols-3 gap-4 mb-6">
+
+            <div>
+              <img
+                src="/totosbliss.png"
+                className="rounded-lg h-40 object-cover w-full"
+              />
+              <p className="text-xs text-gray-500 mt-1 text-center">
+                Homepage
+              </p>
+            </div>
+
+            <div>
+              <img
+                src="/products.png"
+                className="rounded-lg h-40 object-cover w-full"
+              />
+              <p className="text-xs text-gray-500 mt-1 text-center">
+                Product View
+              </p>
+            </div>
+
+            <div>
+              <img
+                src="/admin.png"
+                className="rounded-lg h-40 object-cover w-full"
+              />
+              <p className="text-xs text-gray-500 mt-1 text-center">
+                Admin Dashboard
+              </p>
+            </div>
+
+          </div>
 
           <p className="text-gray-400 mb-5">
             Built a complete online store for a baby shop, allowing customers to browse products, place orders, and enabling the business to manage sales digitally.
@@ -95,10 +120,17 @@ export default function App() {
 
         <div className="space-y-6">
 
+          {/* Movie App */}
           <div className="bg-gray-900 p-6 rounded-xl">
-            <h3 className="text-xl font-semibold mb-2">
+
+            <h3 className="text-xl font-semibold mb-3">
               Movie Review App
             </h3>
+
+            <img
+              src="/movies.png"
+              className="rounded-lg mb-4 h-40 object-cover w-full"
+            />
 
             <p className="text-gray-400 text-sm mb-2">
               A platform for browsing and reviewing movies with user authentication.
@@ -117,6 +149,7 @@ export default function App() {
             </a>
           </div>
 
+          {/* Luku */}
           <div className="bg-gray-900 p-6 rounded-xl">
             <h3 className="text-xl font-semibold mb-2">
               Fashion E-commerce (Collaborative Project)
@@ -162,7 +195,6 @@ export default function App() {
         </p>
 
         <div className="flex flex-col items-center gap-4 text-lg">
-
           <p>📞 +254 715 197 697</p>
           <p>📧 githogoringash91@gmail.com</p>
 
@@ -174,7 +206,6 @@ export default function App() {
             LinkedIn
           </a>
 
-          {/* WhatsApp */}
           <a
             href="https://wa.me/254715197697"
             target="_blank"
@@ -182,7 +213,6 @@ export default function App() {
           >
             <FaWhatsapp size={28} />
           </a>
-
         </div>
       </section>
 

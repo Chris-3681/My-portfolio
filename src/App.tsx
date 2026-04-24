@@ -7,11 +7,15 @@ export default function App() {
       {/* HERO */}
       <section className="flex flex-col justify-center items-center text-center px-6 py-24 max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
-          I build web applications that help businesses sell online
+          I build web applications that help businesses sell and operate online
         </h1>
 
-        <p className="text-gray-400 text-lg mb-8">
+        <p className="text-gray-400 text-lg mb-4">
           Full-stack developer specializing in React & Flask
+        </p>
+
+        <p className="text-gray-500 text-sm mb-8 max-w-xl">
+          Experience working directly with businesses and understanding real sales workflows.
         </p>
 
         <div className="flex items-center gap-4">
@@ -30,7 +34,7 @@ export default function App() {
             Contact Me
           </a>
 
-          {/* WhatsApp Icon */}
+          {/* WhatsApp */}
           <a
             href="https://wa.me/254715197697"
             target="_blank"
@@ -47,13 +51,20 @@ export default function App() {
         <h2 className="text-3xl font-bold mb-10">Featured Project</h2>
 
         <div className="bg-gray-900 p-8 rounded-xl shadow-lg">
+
           <h3 className="text-2xl font-semibold mb-3">
             TotosBliss E-commerce Platform
           </h3>
 
+          {/* Screenshot */}
+          <img
+            src="/totosbliss.png"
+            alt="TotosBliss screenshot"
+            className="rounded-lg mb-6"
+          />
+
           <p className="text-gray-400 mb-5">
-            Built a full-stack e-commerce system for a baby shop to manage
-            product browsing, ordering, and operations.
+            Built a complete online store for a baby shop, allowing customers to browse products, place orders, and enabling the business to manage sales digitally.
           </p>
 
           <ul className="text-gray-300 mb-6 space-y-2">
@@ -66,7 +77,6 @@ export default function App() {
           <p className="text-sm text-gray-500 mb-4">
             Tech: React, Flask, PostgreSQL, JWT
           </p>
-          
 
           <a
             href="https://totos-bliss-babyshop.vercel.app/"
@@ -75,6 +85,7 @@ export default function App() {
           >
             View Live →
           </a>
+
         </div>
       </section>
 
@@ -88,6 +99,10 @@ export default function App() {
             <h3 className="text-xl font-semibold mb-2">
               Movie Review App
             </h3>
+
+            <p className="text-gray-400 text-sm mb-2">
+              A platform for browsing and reviewing movies with user authentication.
+            </p>
 
             <p className="text-sm text-gray-500 mb-2">
               React, Flask, PostgreSQL
@@ -108,7 +123,7 @@ export default function App() {
             </h3>
 
             <p className="text-gray-400 text-sm mb-2">
-              Worked on UI and core functionality implementation
+              Collaborated on building an online fashion store, focusing on UI and core features.
             </p>
 
             <p className="text-sm text-gray-500 mb-2">
@@ -143,7 +158,7 @@ export default function App() {
         <h2 className="text-3xl font-bold mb-6">Contact</h2>
 
         <p className="text-gray-400 mb-6">
-          Let’s build something that actually works for your business
+          Need a website or system for your business? Let’s talk.
         </p>
 
         <div className="flex flex-col items-center gap-4 text-lg">
@@ -159,7 +174,7 @@ export default function App() {
             LinkedIn
           </a>
 
-          {/* WhatsApp Icon */}
+          {/* WhatsApp */}
           <a
             href="https://wa.me/254715197697"
             target="_blank"
